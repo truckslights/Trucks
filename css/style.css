@@ -61,7 +61,8 @@ nav a {
 }
 
 nav a:hover {
-    color: #5D6E9E;
+    background-color: #128C7E;
+    color: white;
 }
 
 .header {
@@ -337,6 +338,27 @@ nav a:hover {
 
 @media screen and (max-width: 670px) {
 
+    .headerContainer {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        height: auto;
+        padding: 20px 20px 140px;
+    }
+
+    .headerContainer > div:last-child {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 20%;
+    }
+    
     .logo img {
           width: 220px;
           position: absolute;
