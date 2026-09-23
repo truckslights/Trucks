@@ -314,6 +314,16 @@ nav a:hover {
     padding: 20px;
 }
 
+@media screen and (min-width: 900px) {
+
+    nav a {
+        padding: 15px 20px;
+        margin: 10px;
+        border-radius: 7px;
+    }
+
+}
+
 @media screen and (max-width: 850px) {
 
     nav a {
